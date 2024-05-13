@@ -25,3 +25,5 @@
 # Exemplo Prático de Uso
 
 Imagine um e-commerce como pedidos, pagamentos e envios. Quando um cliente faz um pedido, o serviço de pedidos envia uma mensagem para o RabbitMQ, que então encaminha essa mensagem para outros serviços como pagamentos e envio. Cada serviço deve processar a sua parte de forma independente.
+
+![alt text](image-1.png)
