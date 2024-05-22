@@ -1,4 +1,4 @@
-# O que é uma Queue no RabbitMQ??
+# O que é uma Queue no RabbitMQ?
 
 - Uma queue (fila) é um componente fundamental no RabbitMQ que armazena mensagens até que sejam consumidas por um consumidor. As filas são usadas para desacoplar a produção e o consumo de mensagens, permitindo que os sistemas lidem melhor com variações na carga de trabalho.
 
