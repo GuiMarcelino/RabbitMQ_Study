@@ -16,7 +16,7 @@ Este projeto consiste em duas aplicações Rails API (`person_1` e `person_2`) q
 
 - **Ruby**: 3.1.0
 - **Rails**: 7.0.8
-- **RabbiMQ**: 7.0.8
+- **RabbiMQ**
 
 ## Clonando o Repositório
 
