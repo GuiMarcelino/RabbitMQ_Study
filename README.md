@@ -1,4 +1,4 @@
-# Esse repositório serve como base de estudo sobre fundamentos de RabbitMQ
+# Esse repositório serve como base de estudo sobre fundamentos do RabbitMQ
 
 - Vou falar sobre publisher, exchange, queue e consumer
 
