@@ -1,0 +1,34 @@
+version: '3'
+
+services:
+  person_1:
+    build:
+      context: ./person_1
+      dockerfile: Dockerfile
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+    volumes:
+      - ./person_1:/app
+    ports:
+      - "3001:3000"
+    depends_on:
+      - rabbitmq
+
+  person_2:
+    build:
+      context: ./person_2
+      dockerfile: Dockerfile
+    environment:
+      - RABBITMQ_HOST=rabbitmq
+    volumes:
+      - ./person_2:/app
+    ports:
+      - "3002:3000"
+    depends_on:
+      - rabbitmq
+
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    ports:
+      - "5673:5672"
+      - "15673:15672"
