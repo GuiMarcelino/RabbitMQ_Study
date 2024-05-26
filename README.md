@@ -40,12 +40,6 @@ cd person_2
 bundle install
 ```
 
-## Executando as Aplicações
-- Inicie os serviços usando Docker Compose:
-```sh
-docker-compose up --build
-```
-
 # Executando projeto local
 
 ## Subir server RabbitMQ local
